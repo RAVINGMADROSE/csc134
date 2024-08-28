@@ -5,6 +5,7 @@
 // version 2, now with input
 
 #include <iostream>
+#include <iomanip> 
 using namespace std;
 
 int main() {
@@ -34,6 +35,9 @@ int main() {
   //Calculate the total cost
   total_cost = num_apples * price_per_apple;
   
+  //set all decimals to 2 places
+  cout << fixed << setprecision(2);
+
   // Give the answers
   cout << "We have " << num_apples << " apples in stock." << endl;
   cout << "Each apple costs $" << price_per_apple <<  "." << endl;
