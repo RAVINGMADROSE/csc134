@@ -2,7 +2,7 @@
 // M1LAB - Apple Orchard
 // Madison Moon
 // 8/21/24
-// versuib 2, now with input
+// version 2, now with input
 
 #include <iostream>
 using namespace std;
